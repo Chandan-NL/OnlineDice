@@ -19,7 +19,7 @@ var img2 = document.querySelectorAll("img")[1];
 
 img2.setAttribute("src", folderConcat2);
 
-
+// Logic for declaring which player win...
 if (randomNumber > randomNumber2) {
     document.querySelector("h1").innerHTML = "Player 1 Win's 🚩";
 } else if (randomNumber == randomNumber2) {
